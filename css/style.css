@@ -9,7 +9,7 @@ body{
 }
 
 header{
-  height: 400px;
+  height: 450px;
   background-color: #0C325A;
 }
 
@@ -105,19 +105,23 @@ header{
 
 .banner{
   position: relative;
+  height: 380px;
   background-image: url(../img/background-header.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: contain;
 }
 
 .header-bottom{
   position: absolute;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%)
 }
 
 .header-bottom h1{
   color: #fff;
-  /* width: 35%;
-  padding-bottom: 20px; */
+  width: 60%;
+  padding-bottom: 20px;
 }
 
 .header-bottom .button-header-bottom{
@@ -125,7 +129,7 @@ header{
   border: none;
   color: white;
   border-radius: 5px;
-  padding: 8px 10px;
+  padding: 15px 10px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
