@@ -184,17 +184,8 @@ main{
   padding: 30px 45px;
 }
 
-.col-left img{
-  width: 35%;
-  height: auto;
-}
-.col-central img{
-  width: 50%;
-  height: auto;
-}
-.col-right img{
-  width: 50%;
-  height: auto;
+.col-main img{
+height: 80px;
 }
 
 .col-main h3{
