@@ -4,10 +4,14 @@
   padding: 0;
 }
 
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 
 header{
   height: 400px;
-  background-color: blue;
+  background-color: #0C325A;
 }
 
 .container{
@@ -27,13 +31,23 @@ header{
 }
 
 .header-top-logo{
-  width: 10%;
+  position: relative;
+  width: 15%;
+  height: 60px;
   float: left;
-  background-color: pink;
 }
+
+.header-top-logo img{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .menu-inline{
   list-style: none;
+  font-size: 12px;
 }
 
 .menu-inline li{
@@ -41,9 +55,8 @@ header{
 }
 
 .header-top-nav-left{
-  width: 45%;
+  width: 46%;
   float: left;
-  background-color: orange;
 }
 
 .header-top li{
@@ -57,7 +70,7 @@ header{
 }
 
 .header-top-nav-right{
-  width: 45%;
+  width: 34%;
   float: left;
   text-align: right;
   background-color: green;
