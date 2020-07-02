@@ -141,7 +141,7 @@ header{
 /* inizio corpo centrale */
 
 main{
-  height: 1000px;
+  height: 850px;
 }
 
 .section-top{
@@ -166,6 +166,8 @@ main{
 .section-top-info p{
   color: #909090;
 }
+
+/* inizio sezione centrale superiore */
 
 .section-central{
   height: 45%;
@@ -203,19 +205,26 @@ height: 80px;
   color: #909090;
 }
 
-.col-left{
-
-}
-
-.col-central{
-
-}
-
-.col-right{
-
-}
-
+/* inizio sezione centrale inferiore */
 .section-bottom{
   height: 45%;
+  background-color: red;
+}
+
+.section-bottom::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-bottom-left{
+  float: left;
+  width: 50%;
   background-color: green;
+}
+
+.col-bottom-right{
+  float: left;
+  width: 50%;
+  background-color: blue;
 }
