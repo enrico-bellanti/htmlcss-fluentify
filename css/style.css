@@ -73,9 +73,9 @@ header{
   text-align: right;
 }
 
-.button{
+/* .button{
 
-}
+} */
 
 .header-top-nav-right .button-login {
   border: 1px solid #fff;
@@ -91,6 +91,36 @@ header{
 }
 
 .header-top-nav-right .button-green{
+  background-color: #7CBB02;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.banner{
+  position: relative;
+  background-image: url(../img/background-header.png);
+}
+
+.header-bottom{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
+}
+
+.header-bottom h1{
+  color: #fff;
+  /* width: 35%;
+  padding-bottom: 20px; */
+}
+
+.header-bottom .button-header-bottom{
   background-color: #7CBB02;
   border: none;
   color: white;
