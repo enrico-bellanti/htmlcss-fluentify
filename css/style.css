@@ -146,7 +146,7 @@ main{
 
 .section-top{
   position: relative;
-  height: 10%;
+  height: 100px;
   background-color: #CECECE;
   text-align: center;
 }
@@ -205,10 +205,17 @@ height: 80px;
   color: #909090;
 }
 
+#main-divider{
+  border: 1px solid #CECECE;
+  margin: 15px;
+}
+
 /* inizio sezione centrale inferiore */
 .section-bottom{
   height: 45%;
-  background-color: red;
+  /* border-top: 1px solid #909090; */
+  padding-top: 30px;
+  text-align: center;
 }
 
 .section-bottom::after{
@@ -220,11 +227,86 @@ height: 80px;
 .col-bottom-left{
   float: left;
   width: 50%;
-  background-color: green;
+}
+
+.col-bottom-left img{
+  width: 70%;
 }
 
 .col-bottom-right{
+  text-align: left;
   float: left;
   width: 50%;
-  background-color: blue;
+  padding-right: 25%;
+}
+
+.col-bottom-right h3{
+  margin-bottom: 10px;
+}
+.col-bottom-right p{
+  font-size: 12px;
+  color: #909090;
+  margin-bottom: 10px;
+}
+.col-bottom-right a{
+  color: #5888BD;
+  font-size: 8px;
+}
+
+/* inizio footer */
+
+footer{
+  height: 100px;
+  background-color: #CECECE;
+}
+
+footer::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-footer-left{
+  width: 50%;
+  float: left;
+  line-height: 100px;
+}
+
+.col-footer-right{
+  width: 50%;
+  float: left;
+  padding-left: 40px;
+}
+
+.col-sx{
+  margin: 0 15px;
+  font-size: 12px;
+  color: #909090;
+  line-height: 100px;
+}
+
+.col-sx span{
+
+}
+
+.col-dx{
+}
+
+.col-sx select{
+
+}
+
+#button-footer{
+  display: block;
+  background-color: #7CBB02;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  cursor: pointer;
 }
