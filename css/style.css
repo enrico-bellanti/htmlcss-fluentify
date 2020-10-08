@@ -140,9 +140,6 @@ header{
 
 /* inizio corpo centrale */
 
-main{
-  height: 850px;
-}
 
 .section-top{
   position: relative;
@@ -213,7 +210,6 @@ height: 80px;
 /* inizio sezione centrale inferiore */
 .section-bottom{
   height: 45%;
-  /* border-top: 1px solid #909090; */
   padding-top: 30px;
   text-align: center;
 }
@@ -267,15 +263,14 @@ footer::after{
 }
 
 .col-footer-left{
-  width: 50%;
-  float: left;
+  float: right;
+  display: inline-block;
   line-height: 100px;
 }
 
 .col-footer-right{
-  width: 50%;
-  float: left;
-  padding-left: 40px;
+  float: right;
+  display: inline-block;
 }
 
 .col-sx{
@@ -285,16 +280,6 @@ footer::after{
   line-height: 100px;
 }
 
-.col-sx span{
-
-}
-
-.col-dx{
-}
-
-.col-sx select{
-
-}
 
 #button-footer{
   display: block;
